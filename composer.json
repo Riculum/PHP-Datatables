@@ -1,6 +1,6 @@
 {
   "name": "riculum/php-datatables",
-  "description": "Simple PHP extension for datatables ",
+  "description": "Simple PHP extension for Datatables",
   "type": "library",
   "license": "MIT",
   "authors": [

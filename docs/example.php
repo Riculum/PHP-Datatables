@@ -20,7 +20,7 @@ echo Datatable::getDatatable($table, $columns);
 /**
  * Example with JOIN
  */
-$table = "user LEFT JOIN city ON user.zip = city.zip";
+$table = "user JOIN city ON user.zip = city.zip";
 $columns = ["user.id", "firstname", "lastname", "company", "address", "city.name", "email", "phone"];
 
 //echo Datatable::getDatatable($table, $columns);
@@ -31,10 +31,10 @@ $columns = ["user.id", "firstname", "lastname", "company", "address", "city.name
 $table = "user";
 $columns = ["id", "firstname", "lastname", "company", "address", "city", "email", "phone"];
 
-$condition =     [
+$where =     [
     'key' => 'id',
     'operator' => '=',
     'value' => 1
 ];
 
-//echo Datatable::getDatatable($table, $columns, $condition);
+//echo Datatable::getDatatable($table, $columns, $where);
