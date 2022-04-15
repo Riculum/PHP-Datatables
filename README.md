@@ -32,7 +32,7 @@ $dotenv->load();
 
 ## Datatables
 
-### Basic
+### BASIC
 To get the properly formatted data, you just need to define the table and columns
 ```php
 $table = "user";
