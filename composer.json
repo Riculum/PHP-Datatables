@@ -1,0 +1,22 @@
+{
+  "name": "riculum/php-datatables",
+  "description": "Simple PHP extension for datatables ",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Riculum",
+      "email": "riculum@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Datatables\\" : "./"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.3",
+    "riculum/php-pdo": "^1.0",
+    "ext-pdo": "*"
+  }
+}
