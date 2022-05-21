@@ -1,8 +1,8 @@
 <?php
-namespace Datatables\core;
+namespace Riculum\Datatables;
 
-use Database\Core\Database as DB;
 use PDO;
+use Riculum\Database as DB;
 
 class Datatable {
     static function getDatatable(string $table, array $columns, array $where = []): string

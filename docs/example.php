@@ -1,7 +1,9 @@
 <?php
+
+use Riculum\Datatables\Datatable;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Datatables\core\Datatable;
 
 /**
  * Load .env file
